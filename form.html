@@ -22,7 +22,7 @@
 
                 <fieldset id="usuario">
                     <p>
-                        <legend>Usuário</legend>
+                        <legend hidden>Usuário</legend>
                         <label for="user">Usuário</label>
                         <input type="text" name="" id="user" placeholder="Digite: nome de Usuário"/>
                     </p>
@@ -30,7 +30,7 @@
 
                 <fieldset id="Senha">
                     <p>
-                        <legend>Senha</legend>
+                        <legend hidden>Senha</legend>
                         <label for="senha">Senha</label>
                         <input type="password" name="" id="senha" placeholder="Digite: Senha" required="true"/>
                     </p>
@@ -38,7 +38,7 @@
 
                 <fieldset id="Email">
                     <p>
-                        <legend>Email</legend>
+                        <legend hidden>Email</legend>
                         <label for="email">Email</label>
                         <input type="email" name="" id="senha" placeholder="Digite: seu Email" required="true">
                     </p>
@@ -46,7 +46,7 @@
 
                 <fieldset id="celnumber">
                     <p>
-                        <legend>Celular</legend>
+                        <legend hidden>Celular</legend>
                         <label for="number">Celular</label>
                         <input type="tel" name="" id="number" placeholder="+551199999999">
                     </p>
@@ -54,7 +54,7 @@
 
                 <fieldset id="Calendario">
                     <p>
-                        <legend>Data</legend>
+                        <legend hidden>Data</legend>
                         <label for="data">Data</label>
                         <input type="date" name="" id="data">
                     </p>  
@@ -62,7 +62,7 @@
 
                 <fieldset id="Escolha">
                     <p>
-                        <legend>Escolha</legend>
+                        <legend hidden>Escolha</legend>
                         <label for="select">Escolha</label>
                         <select name="" id="select">
                         <option name="" value="" selected>Clique aqui</option>
@@ -76,7 +76,7 @@
 
                 <fieldset id="Radio">
                     <p>
-                        <legend>Escolha</legend>
+                        <legend hidden>Escolha</legend>
                         <!--Aqui os names devem ser o mesmo, para que não ocorra o erro de pressionar os botões e os mesmos não serem desmarcados  -->
                         <input type="radio" name="opcao" id="opcao1"><label for="opcao1">Opção 1</label>
                         <input type="radio" name="opcao" id="opcao2"><label for="opcao2">Opção 2</label>               
@@ -85,7 +85,7 @@
 
                 <fieldset id="Range">
                     <p>
-                        <legend>Defina</legend>
+                        <legend hidden>Defina</legend>
                         <label for="typerange">Range</label>
                         Min<input type="range" name="" id="typerange">Max
                     </p>
@@ -93,7 +93,7 @@
 <!--  -->
                 <fieldset id="mensagem">
                     <p>
-                        <legend>Descrição</legend>
+                        <legend hidden>Descrição</legend>
                         <label for="msg">Mensagem</label>
                         <!-- Aqui é possivel colocar um texto entre a tag textarea e seu fechamento para que o usuário possa completa-lo --> 
                         <textarea name="" id="msg" cols="30" rows="9" placeholder="Digite aqui sua mensagem" maxlength="300"></textarea>
@@ -102,7 +102,7 @@
 
                 <fieldset id="botao-enviar">
                     <p>
-                        <legend>Botão Enviar</legend>
+                        <legend hidden>Botão Enviar</legend>
                         Agora é só nos enviar!
                         <button name="enviar" type="submit">Enviar</button>
                     </p>
