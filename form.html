@@ -64,18 +64,19 @@
                         <legend>Escolha</legend>
                         <label for="select">Escolha</label>
                         <select name="" id="select">
-                        <option value="" selected>Clique aqui</option>
-                        <option value="opção1">Opção 1</option>
-                        <option value="opção2">Opção 2</option>
-                        <option value="opção3">Opção 3</option>
+                        <option name="" value="" selected>Clique aqui</option>
+                        <option name="nome1" value="opção1">Opção 1</option>
+                        <option name="nome2" value="opção2">Opção 2</option>
+                        <option name="nome3" value="opção3">Opção 3</option>
                         </select>
+                        <!-- Aqui o atributo name serve para atribuir o value para o tag select. Na url teremos endereçourl/name=value -->
                     </p>
                 </fieldset>
 
                 <fieldset id="Radio">
                     <p>
                         <legend>Escolha</legend>
-                 
+                        <!--Aqui os names devem ser o mesmo, para que não ocorra o erro de pressionar os botões e os mesmos não serem desmarcados  -->
                         <input type="radio" name="opcao" id="opcao1"><label for="opcao1">Opção 1</label>
                         <input type="radio" name="opcao" id="opcao2"><label for="opcao2">Opção 2</label>               
                     </p>
@@ -88,12 +89,12 @@
                         Min<input type="range" name="" id="typerange">Max
                     </p>
                 </fieldset>
-
+<!--  -->
                 <fieldset id="mensagem">
                     <p>
                         <legend>Descrição</legend>
                         <label for="msg">Mensagem</label>
-                        <textarea name="" id="msg" cols="30" rows="9" placeholder="Digite aqui sua mensagem" maxlength="300"></textarea>
+                        <textarea name="" id="msg" cols="30" rows="9" placeholder="Digite aqui sua mensagem" maxlength="300"><!-- Aqui é possivel colocar um texto para que o usuário possa completa-lo --></textarea>
                     </p>
                 </fieldset>
 
