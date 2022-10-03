@@ -20,12 +20,12 @@ body {
 }
 
 nav {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ccc;
     text-align: center;
 }
 
 header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
 }
 
