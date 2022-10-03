@@ -1,7 +1,18 @@
-form { 
+header {
     text-align: center;
 }
 
-fieldset {
-    width: 300px;
+#formulario {
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid black;
+    padding: auto;
+    margin: auto;
+}
+
+form {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.281);
 }
