@@ -9,11 +9,13 @@ body {
     border: 1px solid;
     background-color: blue;
     margin-left: 10px;
+    width: 100px;
+    text-align: center;
 }
 
 .inline li a {
     color: white;
-    margin: auto 15px auto 15px;
+    
     
 }
 
